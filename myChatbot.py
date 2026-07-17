@@ -1,7 +1,7 @@
 import streamlit as st
 from google import genai
 
-client = genai.Client(api_key=st.secrets["GEMINI_API_KEY"])
+client = genai.Client(api_key="AIzaSy_your_actual_api_key_here")
 
 st.title("sree Chatbot")
 
